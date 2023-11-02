@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--
+      Site created by Brian Design on youtube @ www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A?view_as=subscriber
+    -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML CSS Website</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+        integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./schedule.css">
+    <script src="datetime.js"></script>
+
+</head>
+
+<body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="/" id="navbar__logo" class="logo_trai"> <img
+                    src="./img TRL/383241022_697080172443151_4773275165320267530_n.jpg" alt="">TRAI REN LUYEN XI</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span> <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="/" class="navbar__links">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="./memory.html" class="navbar__links">Schedule</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="team.html" class="navbar__links">Team</a>
+                    <!-- add thêm hình vào đây -->
+                </li>
+                <li class="navbar__item">
+                    <a href="./memory.html" class="navbar__links">Memory</a>
+                </li>
+                <li class="navbar__btn"><a href="./dangki.html" class="button">Register Now</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="tableall">
+        <table id="schedule">
+            <tr>
+                <th>Thời gian</th>
+                <th>Hoạt động</th>
+            </tr>
+            <tr>
+                <td>06:00 AM - 07:30 AM</td>
+                <td>Khởi Động Tại NVH Sinh Viên</td>
+            </tr>
+            <tr>
+                <td>07:30 AM - 10:00 AM</td>
+                <td>Di Chuyển Tới Địa Điểm Trại</td>
+            </tr>
+            <tr>
+                <td>10:00 AM - 12:30 PM</td>
+                <td>Trò Chơi Nhập Trại Trong Khu Cắm Trại</td>
+            </tr>
+            <tr>
+                <td>12:30 PM - 01:00 PM</td>
+                <td>Ăn Cơm Trưa</td>
+            </tr>
+            <tr>
+                <td>01:30 PM - 05:30 PM </td>
+                <td>Team Building Trong Khu Cắm Trạit</td>
+            </tr>
+            <tr>
+                <td>05:30 PM - 06:15 PM </td>
+                <td>Tắm Rửa Vệ Sinh Cá Nhân</td>
+            </tr>
+            <tr>
+                <td>06:00 PM - 10:00 PM</td>
+                <td>Hoạt Động Buổi Tối</td>
+            </tr>
+            <tr>
+                <td>10:00 PM - 12:00 PM</td>
+                <td>Trò Chơi Lớn Xoay Quanh Chủ Đề Trại</td>
+            </tr>
+            <tr>
+                <td>12:00 PM - 01:00 AM</td>
+                <td>Ăn Khuya</td>
+            </tr>
+            <tr>
+                <td>07:00 AM - 08:00 AM</td>
+                <td>Rèn Luyện Thể Chất</td>
+            </tr>
+            <tr>
+                <td>09:00 AM - 10:00 AM</td>
+                <td>Ăn Sáng</td>
+            </tr>
+            <tr>
+                <td>10:00 AM - 01:00 PM</td>
+                <td>Đi Rừng</td>
+            </tr>
+            <tr>
+                <td>01:00 PM - 02:00 Am</td>
+                <td>Ăn Trưa</td>
+            </tr>
+            <tr>
+                <td>02:00 PM - 04:00 Am</td>
+                <td>Tổng Kết Trại Lên Xe Di Chuyển Đi Về</td>
+            </tr>
+            <!-- ... thêm các mục khác ở đây ... -->
+        </table>
+
+    </div>
+    <!-- <script>
+        const scheduleTable = document.getElementById('schedule');
+        scheduleTable.addEventListener('click', (event) => {
+            const target = event.target;
+            if (target.tagName === 'TD') {
+                alert(`Bạn đã chọn: ${target.textContent}`);
+            }
+        });
+
+    </script> -->
+
+    <!-- Footer Section -->
+    <div class="footer__container">
+        <div class="footer__links">
+            <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                    <h2>About Us</h2>
+                    <a href="/sign__up"></a> <a href="/">Information system</a>
+                    <a href="/">Doan - Hoi He Thong</a>
+                </div>
+                <div class="footer__link--items">
+                    <h2>Contact Us</h2>
+                    <a href="/">Tran Van Quang</a> <a href="/">Huyen Nguyen</a>
+                </div>
+            </div>
+            <div class="footer__link--wrapper">
+
+                <div class="footer__link--items">
+                    <h2>Social Media</h2>
+                    <a href="/">Instagram</a> <a href="/">Facebook</a>
+                </div>
+            </div>
+        </div>
+        <section class="social__media">
+            <div class="social__media--wrap">
+                <div class="footer__logo">
+                    <a href="/" id="navbar__logo" class="logo_trai"> <img
+                            src="./img TRL/383241022_697080172443151_4773275165320267530_n.jpg" alt="">TRAI REN
+                        LUYEN</a>
+                </div>
+                <p class="website__rights">©INFORMATION SYSTEM DEPARTMENT</p>
+                <div class="social__icons">
+                    <a class="social__icon--link" href="/" target="_blank" aria-label="Facebook">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a class="social__icon--link" href="/" target="_blank" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a class="social__icon--link"
+                        href="//www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A?view_as=subscriber" target="_blank"
+                        aria-label="Youtube">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a class="social__icon--link" href="/" target="_blank" aria-label="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a class="social__icon--link" href="/" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
